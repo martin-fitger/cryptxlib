@@ -1,0 +1,28 @@
+{
+	"nextgen": true,
+	"project_name": "cryptxlib",
+	"description": "C++ library for cryptography",
+	"company": "XMN Software AB",
+	"version": "0.0.1",
+	"project_type" : "lib",
+	"platforms": [ "x64" ],
+	"language_standard": "stdcpp20",
+	"character-set": "Unicode",
+	"source": {
+		"include": "include",
+		"src": "src"
+	},
+	"include_paths": [
+		"$(ProjectDir)..\\include"
+	],
+	"configurations": [
+		{
+			"name": "Debug",
+			"flags": [ "debug" ]
+		},
+		{
+			"name": "Release",
+			"flags": []
+		}
+	]
+}
